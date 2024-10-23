@@ -1,0 +1,28 @@
+[user]
+	name = Maximilian Zwiesler
+	email = <email>
+[init]
+	defaultBranch = main
+[alias]
+	co = checkout
+	cob = checkout -b
+	b = branch
+	c = commit
+	ca = commit -a
+	cm = commit -m
+	cam = commit -am
+	s = status
+	a = add --all
+	f = fetch -p --tags --force
+	m = merge
+	ps = push
+	psf = push -f
+	psfo = push -f origin
+	psfom = push -f origin master
+	pl = pull
+	#############
+	cp = cherry-pick
+	l = log --pretty=format:\"%h %Cgreen%ad %an %Creset| %Creset%s %Cgreen%d\" --all --graph --date=short --abbrev-commit --branches=* --color=always --decorate
+	lg = log --oneline --abbrev-commit --all --graph --decorate --date=short
+	rb = rebase
+	re = reset
