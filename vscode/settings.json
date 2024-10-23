@@ -1,0 +1,45 @@
+{
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit",
+    },
+  },
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "extensions.ignoreRecommendations": true,
+  "python.languageServer": "Pylance",
+  "redhat.telemetry.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "telemetry.telemetryLevel": "off",
+  "github.copilot.enable": {
+    "markdown": true
+  },
+  "python.analysis.typeCheckingMode": "standard",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "workbench.colorTheme": "Dracula Theme Soft",
+  "git.autofetch": true,
+  "cSpell.enabled": false,
+  "debugpy.debugJustMyCode": false,
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "docker-desktop"
+  ],
+  "workbench.tree.indent": 20,
+  "editor.rulers": [
+    88
+  ],
+  "python.analysis.extraPaths": [
+    "src"
+  ],
+  "diffEditor.ignoreTrimWhitespace": false
+}
